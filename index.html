@@ -1,0 +1,259 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firefly Hotel</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Nanum+Gothic:400,700|Playball&display=swap" rel="stylesheet">
+ 
+ <script src="https://kit.fontawesome.com/700f62f915.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <header>
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="cell text-center">
+        <a href="#" class="logo"> <img src="img/yuyu.svg" alt="logo"> </a>
+    </div>
+    </div>
+
+    <div class="grid-x show-for-nothing">
+      <div class="cell medium-3 show-for-medium">
+        <a href="#">Home</a>
+      </div>
+      <div class="cell medium-3 show-for-medium">
+        <a href="#">Rooms</a>
+      </div>
+      <div class="cell medium-3 show-for-medium">
+        <a href="#">Events</a>
+      </div>
+      <div class="cell medium-3 show-for-medium">
+        <a href="#">About Us</a>
+      </div>
+      <div class="cell show-for-small-only">
+        <a class="menu-link" href="#" data-open="exampleModal1">Menu</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="reveal" id="exampleModal1" data-reveal>
+  <div class="grid-x align-middle">
+    <div class="cell">
+      <ul class="vertical menu align-center">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<section class="hero">
+
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    
+    <ul class="orbit-container">
+      
+      <li class="is-active orbit-slide">
+       
+        <figure class="orbit-figure">
+          <img src="img/enter.jpg" alt="Hotel image">
+        </figure>
+      </li>
+      
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+         <img src="img/hotela.jpg" alt="Hotel image">
+        </figure>
+      </li>
+      
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img src="img/hall5.jpg" alt="Hotel image">
+        </figure>
+      </li>
+      
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img src="img/beach33.jpg" alt="Hotel image">
+        </figure>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<table class="table">
+      <thead>
+        <tr>
+          <th>Check In:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th>Check Out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr colspan="2">
+          <td>
+            <button class="button" data-open="confirm-booking" id="dpd3">Reserve</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="reveal" id="confirm-booking" data-reveal>
+      <h1>Confirmation</h1>
+      <p>Arrive <span class="date1"></span>. Depart <span class="date2"></span></p>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+  <div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell medium-3 small-order-2 medium-order-1">
+      <img src="img/seatbeach.jpg" alt="beachss">
+      <h2>Beach</h2>
+      <p>Enjoy the beach while hangout with your friends or random people . The beach is near the hotel and can just walk out and have the sunny light shine on you when relax on the beach. Why stay in hotel ? Go out to the beach!!! </p>
+       <a href="#" class="button">Enjoy Our Beach</a>
+    </div>
+    <div class="cell medium-3 small-order-3 medium-order-2">
+      <img src="img/bed1.jpg" alt="bedding">
+      <h2>Bedding</h2>
+      <p>Are you party to much? Don’t worry the our bed is comfortable and
+room smells very nice. The bed have new fresh bed sheets and the maid will clean your room every time you go out of the room. Don’t worry we change your pillows. </p>
+      <a href="#" class="button">Stay confortable</a>
+    </div>
+    <div class="cell medium-3 small-order-4 medium-order-3">
+      <img src="img/dine.jpg" alt="dine">
+      <h2>Dining</h2>
+      <p>Are you hungry? Why go to our dinning room where we can serve the best food to you. Our food is out of the world and is delicious. Enjoy the beach view while you eating you meals. The dinning room is modern and fancy.</p>
+      <a href="#" class="button">Delicious Food</a>
+    </div>
+    <div class="cell medium-3 small-order-1 medium-order-4">
+      <img src="img/pv.jpg" alt="partyvence">
+      <h2>Party Venue</h2>
+      <p>Do you want the best seat in the beach rave? This hotels got the best beach rave in the world. Why party in the back if you can go in the front to  enjoy the DJ up front.  Who won’t want to go the rave to have fun just make a party venue.</p>
+      <a href="#" class="button"> Wild It Out </a>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="quotes">
+  <div class="grid-x align-center">
+     <div class="cell medium-5">
+      <img src="img/eee.jpg" alt="eee">
+      <h2>Story</h2>
+    <p> The Firefly Hotel is location at Florida. The founder of the hotel is Justin Sun.This hotel serves a bar which they can buy alcohol and energy drinks. The hotel had a beach which they can go at  day time and at night time they can go to the beach Rave events with the DJ which last to 9;00 Pm to 3;00 Am.  This hotel is expensive and room is very neat and in high condition. </p>
+  </div>
+</div>
+</div>
+</section>
+
+
+  <section class="ravee">
+    <div class="grid-x align-center" >
+      <div class="cell medium-12">
+      <img src="img/yu.jpg" alt="yu">
+      <h2>RAVE</h2>
+</div>
+</div>
+</section>
+
+ 
+ <section class="details">
+    <div class="grid-container">
+      <div class="grid-x align-middle">
+        <div class="cell medium-7">
+          <img src="img/drinks.jpg" alt="Hotel image">
+        </div>
+          <div class="cell medium-5 content">
+            <h2> Juice Bar </h2>
+            <p> The Juice bar will be serve on the beach and also open while the rave is happen. It will have energy drinks when people get tired dancing and party to the rave. The Juice bar has juice, alcohol and energy drinks. If you want something to drink just go to the juice bar.<p>
+              
+              <a href="#" class="button"> Recharge Your Thirst</a>
+            
+            </div>
+          
+          </div>
+         <div class="grid-x align-middle">
+      
+          <div class="cell medium-5 content">
+            <h2>Beach Rave</h2>
+            <p> Want to have fun? The Firefly Hotel will events will have a Beach Rave at 9:00 Pm to 3:00 Am. The Beach Rave will be a blasts with so many people on the beach rockin’ it out and dancing. You will meet new people and have wild and crazy time in the Beach Rave. Why wait check the Beach Rave now?  <p>
+              
+          <a href="#" class="button"> Rockin’ It Out</a>
+            
+            </div>
+              <div class="cell medium-7">
+        <img src="img/bea.jpg" alt="Hotel image">
+        </div>
+          
+          </div>
+        </div>
+      
+      <div class="grid-container">
+        <div class="grid-x align-middle">
+        <div class="cell medium-7">
+         
+          <img src="img/DJ2.jpg" alt="Hotel image">
+        </div>
+          <div class="cell medium-5 content">
+            <h2> DJ </h2>
+            <p> The DJ will host the beach rave at night. There will be difference DJ hosting every weeks. There will be alots of famous DJ like Marshmello,  Skrillex and Steve Aoki. The DJ is the live of the party. The DJ will hype it up with many popular music. Find out more about the DJ and go to Firefly Hotel. <p>
+              
+              <a href="#" class="button">DJ Hosting</a>
+            
+            </div>
+          
+          </div>
+
+      </section>
+
+      <section class="quoteW">
+  <div class="grid-x align-center">
+     <div class="cell medium-5">
+      <h2>Quote</h2>
+    <p> "Do not go gentle into that good night."</p>
+    <p> By Rebert Greene</p>
+  </div>
+</div>
+</div>
+</section>
+
+    <footer>
+      <p>Location - Clearwater, Florida 33755 </p>
+      <p> Contact Information - (727)-232-7389 <p>
+<ul>
+
+  <li> <a href="https://www.facebook.com"i class="fab fa-facebook-square"> </a> </i></li>
+  <li> <a href="https://twitter.com" i class="fab fa-twitter-square"> </a></i> </li>
+  <li> <a href="https://www.instagram.com"i class="fab fa-instagram"> </i> </a> </li>
+</ul>
+<p>Copyrignt &copy; 2019 FireFlyHotel</p>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

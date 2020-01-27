@@ -1,0 +1,128 @@
+header {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #C4175C;
+  font-size: 3rem;
+  color: #312B78;
+}
+
+header a {
+  line-height: 1;
+  text-decoration: none;
+  display: block;
+  padding: .7rem 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.reveal {
+  background-color: #212121;
+}
+
+.reveal .grid-x {
+  height: 100vh;
+}
+
+.reveal .menu a {
+  color: #fff;
+}
+
+p{
+  padding-bottom: 1rem;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #292828;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: #F9583C;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.button{
+  background-color: #312B78;
+}
+
+.grid-container{
+  padding: 1rem;
+}
+
+.quotes {
+  background-color: #143D52;
+  padding: 4rem;
+}
+
+.quotes p {
+  color: #fff;
+  text-align: center;
+}
+
+.ravee h2{
+   color: #312B78;
+   font-size: 7rem;
+   background-color: #F9583C;
+}
+
+.detailw p {
+font-size: 1.5rem;
+}
+
+.details{
+padding: 6rem;
+}
+
+.details .content{
+  padding: 5rem;
+}
+.details .button{
+  background-color: #312B78; 
+}
+.quoteW{
+  background-color: #143D52;
+  text-align: center;
+}
+
+.quoteW p {
+  font-family: 'Playball', cursive;
+  color: #fff;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #C4175C;
+  color: #ffffff;
+  padding: 1.5rem;
+}
+
+footer p{
+  margin-top: 0;
+}
+
+footer ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+footer li{
+  display: inline-block;
+  font-size: 2rem;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+footer li a:hover{
+  color: #312B78;
+}
+
+
